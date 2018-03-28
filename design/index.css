@@ -328,3 +328,23 @@ footer a img {
 	}
 
 }
+
+/*
+ * INPUT
+ */
+
+form table td label {
+    display: block;
+    text-align: right;
+}
+
+form table td input {
+    display: block;
+    text-align: left;
+}
+
+form table td select {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
