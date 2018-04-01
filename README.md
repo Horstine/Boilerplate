@@ -1,2 +1,2 @@
 # AwesomeBoilerplate
-The best Boilerplate to ever exist
+The best boilerplate to ever exist
