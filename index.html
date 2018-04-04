@@ -12,23 +12,35 @@
 		<div>
 			<h1><span>Awesome</span> Boilerplate</h1>
 			<p>
-				<label>Jump To Content</label><br>
-				<label>Jump To Footer</label><br>
-				<label>Jump To Kitties</label>
+				<label><a href="#content">Jump To Content</a></label><br>
+                <label><a href="#footer">Jump To Footer</a></label><br>
+                <label><a href="https://www.google.de/search?q=kitties&client=firefox-b-ab&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwju25iU5KDaAhVCDywKHQ0VAxwQ_AUICigB&biw=1280&bih=910">Jump To Kitties</a></label>
 			</p>
 		</div>
 	</header>
 	<main>
 		<section>
 			<article>
-			<!--ToDo Input Fields-->	
-			Input fields belongs here :)
-
+                <form>
+                    Name:<br>
+                    <input type="text" name="name"><br>
+                    Given Name:<br>
+                    <input type="text" name="givenName"><br>
+                    Email:<br>
+                    <input type="text" name="mail"><br>
+                    Number:<br>
+                    <input type="text" name="number"><br>
+                    Subject area:<br>
+                </form>
+                <select name="subjectArea">
+                    <option value="ib">IB</option>
+                    <option value="uib">UIB</option>
+                    <option value="mib">MIB</option>
+                </select>
 			</article>
-
 		</section>
 		<section>
-			<article>
+			<article><a name="content"></a>
 				<figure>
 					<div class="icon icon-learn"></div>
 				</figure>
@@ -44,8 +56,8 @@
 				</figure>
 				<h3>Get Superpowers</h3>
 				<p>
-					Mit den Meilensteinen wirst Du durch Aufgaben geführt um so nach und nach eine
-					vollständige Webapplikation zu entwickeln.
+					Mit den Meilensteinen wirst Du durch Aufgaben gef&uumlhrt um so nach und nach eine
+					vollst&aumlndige Webapplikation zu entwickeln.
 				</p>
 			</article>
 			<article>
@@ -54,7 +66,7 @@
 				</figure>
 				<h3>Help Others</h3>
 				<p>
-					Das wichtigste hierbei ist allerdings auch anderen zu helfen und sie zu unterstützen.
+					Das wichtigste hierbei ist allerdings auch anderen zu helfen und sie zu unterst&uumltzen.
 			</article>
 			<article>
 				<figure>
@@ -63,14 +75,14 @@
 				<h3>Follow Us</h3>
 				<p>
 					Falls du fragen hast, kannst du dich jederzeit an 
-					<a href="https://git.com/CodeKittey">@Codekittey</a>, wenden oder eine
+					<a href="https://github.com/CodeKittey">@Codekittey</a>, wenden oder eine
 					Email schreiben: m.kraus@hs-mannheim.de
 				</p>
 			</article>
 		</section>
 	</main>
-	<footer>
-		<img src="img/nodschool.svg"></a>
+    <footer><a name="footer"></a>
+		<img src="img/nodeschool.svg">
 	</footer>
 	<script src="design/index.js"></script>
 </body>
